@@ -11,6 +11,7 @@
 <meta property="og:description" content="Trabajo en base a resultados: optimizo y resuelvo problemas técnicos desde el ámbito de negocios.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_MX">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2322a45d'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='system-ui%2C-apple-system%2Csans-serif' font-weight='800' font-size='26' fill='white' letter-spacing='-1'%3ERB%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -349,10 +350,7 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
   <div class="wrap">
     <span>Atiendo empresas en Ensenada y todo México</span>
     <span class="dot">•</span>
-    <a href="tel:+526461324041" aria-label="Llamar al 646 132 4041">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-      646 132 4041
-    </a>
+    <a href="#contacto" onclick="navTo(event,'contacto')">Agenda tu llamada</a>
   </div>
 </div>
 
@@ -369,10 +367,6 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
       <a class="link" href="#contacto" onclick="navTo(event,'contacto')">Contacto</a>
     </div>
     <div class="nav-cta">
-      <a class="btn btn-ghost" href="tel:+526461324041">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        Llamar
-      </a>
       <a class="btn btn-green" href="#contacto" onclick="navTo(event,'contacto')">Agendar llamada</a>
       <button class="burger" id="burger" onclick="toggleMenu()" aria-label="Menú"><span></span><span></span><span></span></button>
     </div>
@@ -393,16 +387,12 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
   <div class="wrap">
     <div class="hero-copy">
       <span class="eyebrow">Consultoría especializada</span>
-      <h1><span class="thin">Resuelvo los</span> <span class="accent">problemas técnicos</span> que frenan a tu empresa.</h1>
-      <p class="lead">Marketing digital y operaciones comerciales con un solo objetivo: que tu empresa <strong>ahorre tiempo y dinero</strong>, optimizando lo que ya tienes y resolviendo lo que te detiene.</p>
+      <h1><span class="thin">Identifico y resuelvo</span> <span class="accent">problemas técnicos</span> que están frenando a tu empresa.</h1>
+      <p class="lead">Marketing digital y operaciones comerciales con el objetivo de que tu empresa <strong>ahorre tiempo y dinero</strong>.</p>
       <div class="hero-cta">
         <a class="btn btn-green" href="#contacto" onclick="navTo(event,'contacto')">
           Agendar una llamada
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-        <a class="btn btn-ghost" href="tel:+526461324041">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          646 132 4041
         </a>
       </div>
       <div class="hero-trust">
@@ -427,7 +417,7 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
 <div class="strip">
   <div class="wrap reveal">
     <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Negocios Internacionales · CETYS Universidad</div>
-    <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Enfoque técnico desde el ámbito de negocios</div>
+    <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Trabajo técnico y especializado con una solución simple</div>
     <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Estrategia + ejecución acompañada</div>
     <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Primeros 30 minutos sin costo</div>
   </div>
@@ -437,7 +427,7 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="eyebrow">Áreas de especialidad</span>
-      <h2>Servicios que mueven tu <em>operación</em>.</h2>
+      <h2>Servicios que <em>implementarás</em> en tu operación.</h2>
       <p>Cada módulo se contrata por separado o se integra dentro de un plan de acompañamiento. Entra a cualquiera para ver los puntos clave.</p>
     </div>
     <div class="grid stagger" id="services-grid"></div>
@@ -503,10 +493,6 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
     <p>Los primeros 30 minutos son para identificar tu problema, sin costo. De ahí definimos los módulos aplicables y el plan adecuado.</p>
     <div class="row">
       <a class="btn btn-green" href="#contacto" onclick="navTo(event,'contacto')">Agendar una llamada</a>
-      <a class="btn btn-light" href="tel:+526461324041">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        Llamar ahora
-      </a>
     </div>
   </div>
 </section>
@@ -518,10 +504,6 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
       <h2>Cuéntame qué <em>necesitas</em>.</h2>
       <p>Déjame los datos de tu empresa y el área que te interesa. Te contacto para agendar la conversación inicial: los primeros 30 minutos son para identificar tu problema, sin costo.</p>
       <div class="contact-list">
-        <a class="ci" href="tel:+526461324041">
-          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
-          <div><b>646 132 4041</b><small>Llamada directa o WhatsApp</small></div>
-        </a>
         <a class="ci" href="mailto:rodrigo.burgueno.moreno@gmail.com">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></div>
           <div><b>rodrigo.burgueno.moreno@gmail.com</b><small>Correo electrónico</small></div>
@@ -537,7 +519,7 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
       </div>
     </div>
     <div class="form-card reveal">
-      <form id="leadForm" onsubmit="return submitForm(event)">
+      <form id="leadForm" action="https://formspree.io/f/xnjkpnnd" method="POST">
         <h3>Solicita tu conversación inicial</h3>
         <p class="sub">Respondo personalmente. <em>Primeros 30 minutos sin costo.</em></p>
         <div class="field">
@@ -557,11 +539,8 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
           <select id="servicio" name="servicio">
             <option value="">Selecciona un servicio</option>
             <option>Página web para empresa</option>
-            <option>Redes sociales y Meta Ads</option>
+            <option>Meta Ads y redes sociales</option>
             <option>Email marketing</option>
-            <option>Búsqueda de proveedores</option>
-            <option>Dropshipping a gran escala</option>
-            <option>Negocios internacionales</option>
             <option>Todavía no estoy seguro</option>
           </select>
         </div>
@@ -569,13 +548,14 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
           <label for="mensaje">Mensaje (opcional)</label>
           <textarea id="mensaje" name="mensaje" placeholder="Cuéntame brevemente tu situación o lo que buscas."></textarea>
         </div>
+        <input type="hidden" name="_subject" value="Nueva solicitud desde tu sitio web">
         <button class="btn btn-green btn-block" type="submit">Enviar solicitud</button>
-        <p class="form-note">Al enviar se abrirá tu correo con los datos listos para mandar.</p>
+        <p class="form-note">Tus datos me llegan directo. Te respondo lo antes posible.</p>
       </form>
       <div class="form-ok" id="formOk">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-        <h3>¡Listo!</h3>
-        <p>Se abrió tu correo con la solicitud. Si prefieres, también puedes llamarme directo al 646 132 4041.</p>
+        <h3>¡Solicitud enviada!</h3>
+        <p>Recibí tus datos correctamente. Te contacto lo antes posible para agendar tu conversación inicial.</p>
       </div>
     </div>
   </div>
@@ -594,15 +574,11 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
       <div class="foot-col">
         <h4>Servicios</h4>
         <span onclick="openService('web')">Páginas web</span>
-        <span onclick="openService('ads')">Redes &amp; Meta Ads</span>
+        <span onclick="openService('ads')">Meta Ads y redes</span>
         <span onclick="openService('email')">Email marketing</span>
-        <span onclick="openService('proveedores')">Proveedores</span>
-        <span onclick="openService('dropshipping')">Dropshipping</span>
-        <span onclick="openService('internacional')">Negocios internacionales</span>
       </div>
       <div class="foot-col">
         <h4>Contacto</h4>
-        <a href="tel:+526461324041">646 132 4041</a>
         <a href="mailto:rodrigo.burgueno.moreno@gmail.com">Correo electrónico</a>
         <a href="https://instagram.com/rburguen" target="_blank" rel="noopener">@rburguen</a>
         <a href="#contacto" onclick="navTo(event,'contacto')">Agendar llamada</a>
@@ -610,7 +586,7 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
     </div>
     <div class="foot-bottom">
       <span>© <span id="yr"></span> Rodrigo Burgueño · Persona física con actividad empresarial</span>
-      <a href="tel:+526461324041">646 132 4041</a>
+      <a href="https://instagram.com/rburguen" target="_blank" rel="noopener">@rburguen</a>
     </div>
   </div>
 </footer>
@@ -620,11 +596,7 @@ footer{background:var(--ink);color:oklch(0.72 0.01 160);padding:64px 0 30px}
 <div id="service-page"></div>
 
 <div class="mobile-call">
-  <a class="btn btn-ghost" href="tel:+526461324041">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-    Llamar
-  </a>
-  <a class="btn btn-green" href="#contacto" onclick="navTo(event,'contacto')">Agendar</a>
+  <a class="btn btn-green btn-block" href="#contacto" onclick="navTo(event,'contacto')">Agendar una llamada</a>
 </div>
 
 <script>
@@ -646,7 +618,7 @@ const SERVICES = {
       ['Diseño y desarrollo completo','Sitio profesional con identidad de marca consistente, listo para recibir clientes desde el primer día.'],
       ['Posicionamiento SEO','Palabras clave de tu sector para que aparezcas cuando tus clientes potenciales buscan lo que ofreces.'],
       ['Formulario de captación','Convierte visitantes en prospectos reales, incluso mientras duermes.'],
-      ['Optimización móvil','Diseño que se ve y funciona perfecto en cualquier dispositivo.'],
+      ['Se ve perfecto en cualquier dispositivo','Este mismo sitio es el ejemplo: revísalo en tu computadora y en tu celular y verás que se adapta perfecto en ambos.'],
       ['Dominio propio','Vinculación de un dominio que suena a marca, no a tienda genérica.'],
       ['Información estructurada','Datos de tu empresa claros, accesibles y optimizados en todo momento.']
     ],
@@ -654,84 +626,35 @@ const SERVICES = {
   },
   ads:{
     num:'Servicio 02', icon:'<path d="M3 11l18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/>',
-    title:'Redes sociales y Meta Ads',
-    short:'Estrategia, contenido y campañas pagadas en Instagram, Facebook y TikTok.',
-    lead:'Contenido que construye marca y campañas que traen resultados medibles, trabajando en conjunto.',
-    intro:'Manejo la estrategia y producción de contenido para tus redes, más la gestión de campañas pagadas en Meta Ads enfocadas en objetivos reales de negocio.',
-    why:'Las redes sin estrategia son ruido. La meta no es publicar por publicar, sino construir una presencia que genere reconocimiento y campañas que conviertan ese interés en clientes.',
+    title:'Meta Ads y redes sociales',
+    short:'Campañas de conversión enfocadas en ventas y leads, más asesoría orgánica para Instagram, TikTok y Facebook.',
+    lead:'Anuncios que venden de verdad: primero encontramos a tu cliente ideal, luego invertimos en él sin tirar dinero.',
+    intro:'Este módulo se especializa en campañas de conversión: optimización de ventas y generación de leads. Lo más importante es que te enseño a encontrar tu perfil de cliente ideal, para que de ahí puedas usar los anuncios correctamente y no perder dinero sin saber por qué.',
+    why:'La mayoría de los negocios queman presupuesto en anuncios porque le hablan a la persona equivocada. Cuando primero defines tu perfil ideal, cada peso invertido trabaja a tu favor. Incluye también asesoría orgánica para redes sociales (Instagram, TikTok y Facebook) para que el contenido y la pauta se refuercen entre sí.',
     points:[
-      ['Estrategia de contenido','Plan claro para Instagram, Facebook y TikTok alineado a tu marca y objetivos.'],
-      ['Producción de contenido','Piezas pensadas para detener el scroll y comunicar el valor de tu empresa.'],
-      ['Gestión de Meta Ads','Campañas pagadas estructuradas, optimizadas y monitoreadas de cerca.'],
-      ['Segmentación de audiencia','Tus anuncios frente a las personas correctas, no frente a todo el mundo.'],
-      ['Copy que comunica','Mensajes que tocan el problema real de tu cliente y mueven a la acción.'],
+      ['Campañas de conversión','Enfoque en optimización de ventas y captación de leads, no en likes vacíos.'],
+      ['Tu perfil de cliente ideal','Te enseño a identificar a quién venderle, para que los anuncios funcionen y no desperdicies presupuesto.'],
+      ['Uso correcto del presupuesto','Estructura para invertir con criterio y entender en qué se va cada peso.'],
+      ['Asesoría orgánica de redes','Acompañamiento para Instagram, TikTok y Facebook que potencia la pauta pagada.'],
       ['Medición y ajuste','Decisiones basadas en datos: escalar lo que funciona, apagar lo que no.']
     ],
-    ideal:'Marcas y negocios que quieren crecer su presencia digital y atraer clientes de forma constante.'
+    ideal:'Emprendimientos, consultorios, clínicas, despachos, restaurantes y negocios locales o de servicios que quieren atraer clientes con anuncios bien dirigidos en lugar de gastar a ciegas.'
   },
   email:{
     num:'Servicio 03', icon:'<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/>',
-    title:'Email marketing',
-    short:'Campañas, flujos automatizados y segmentación que recuperan ventas en automático.',
-    lead:'Tu base de datos es un activo. El email marketing lo convierte en ventas recurrentes.',
-    intro:'Diseño campañas de correo, flujos automatizados y segmentación de tu base de datos para que cada contacto reciba el mensaje correcto en el momento correcto.',
-    why:'El email sigue siendo uno de los canales más rentables: le hablas a gente que ya te conoce. Bien automatizado, trabaja solo y recupera ventas que de otra forma se perderían.',
+    title:'Email marketing y automatización',
+    short:'Automatiza tu CRM y tu correo para que tu negocio venda incluso mientras duermes.',
+    lead:'Tu negocio trabajando 24/7, en automático: ahorras tiempo y dejas de perder ventas que ya tenías ganadas.',
+    intro:'Este módulo se trata de ahorrarte tiempo. Automatizamos tu CRM y tu correo electrónico para que las tareas repetitivas (dar la bienvenida, dar seguimiento, recuperar carritos, postventa) sucedan solas, sin que tengas que estar presente.',
+    why:'El mayor costo de un negocio es el tiempo. Cuando automatizas tu CRM y tu correo, tu operación sigue trabajando incluso cuando estás dormido: responde, da seguimiento y vende sin que muevas un dedo. Es de los canales más rentables porque le hablas a gente que ya te conoce.',
     points:[
-      ['Diseño de campañas','Correos claros y atractivos, alineados a tu marca y a cada objetivo.'],
-      ['Flujos automatizados','Secuencias de bienvenida, carrito abandonado y postventa que trabajan sin que estés presente.'],
-      ['Segmentación de base','Mensajes distintos para clientes distintos según su comportamiento.'],
-      ['Recuperación de ventas','Reactiva contactos fríos y aprovecha cada oportunidad ya ganada.'],
-      ['Optimización continua','Pruebas y ajustes para mejorar aperturas, clics y conversiones.']
+      ['Automatización de CRM','Tu base de contactos organizada y trabajando sola, sin seguimiento manual.'],
+      ['Flujos de correo automáticos','Bienvenida, seguimiento, carrito abandonado y postventa que corren en automático.'],
+      ['Tu negocio trabaja mientras duermes','El sistema da seguimiento y vende 24/7, sin que tengas que estar presente.'],
+      ['Ahorro de tiempo real','Dejas de repetir tareas manuales y recuperas horas para enfocarte en crecer.'],
+      ['Recuperación de ventas','Reactiva contactos fríos y aprovecha cada oportunidad ya ganada.']
     ],
-    ideal:'Negocios con una base de clientes o prospectos que aún no están exprimiendo su potencial.'
-  },
-  proveedores:{
-    num:'Servicio 04', icon:'<path d="M16 16h6M19 13v6"/><rect x="2" y="7" width="13" height="10" rx="2"/><path d="M2 11h13"/>',
-    title:'Búsqueda de proveedores por sector',
-    short:'Identificación, validación y negociación de proveedores nacionales e internacionales.',
-    lead:'El proveedor correcto cambia tus márgenes. Te ayudo a encontrarlo y a negociarlo bien.',
-    intro:'Identifico y valido proveedores según la industria específica de tu empresa, con negociación de precios, condiciones comerciales y construcción de relaciones de largo plazo.',
-    why:'Un mal proveedor se come tu utilidad antes de empezar. Encontrar al correcto, validarlo y negociar buenas condiciones es una de las decisiones que más impacta tu rentabilidad.',
-    points:[
-      ['Identificación por sector','Búsqueda enfocada en proveedores que encajan con tu industria específica.'],
-      ['Validación de proveedores','Verificación de seriedad y capacidad antes de que comprometas dinero.'],
-      ['Negociación de precios','Mejores condiciones comerciales para proteger tu margen.'],
-      ['Relaciones de largo plazo','Construcción de vínculos estables, no compras de una sola vez.'],
-      ['Sourcing nacional e internacional','Proveedores dentro y fuera de México según lo que tu operación necesite.']
-    ],
-    ideal:'Empresas que importan o quieren mejorar costos y condiciones con mejores proveedores.'
-  },
-  dropshipping:{
-    num:'Servicio 05', icon:'<path d="M5 7h13l3 5v5h-3M5 7v10h3M8 17h6"/><circle cx="9.5" cy="17.5" r="1.5"/><circle cx="17.5" cy="17.5" r="1.5"/>',
-    title:'Dropshipping a gran escala',
-    short:'Asesoría en estructuras de operación dropshipping a nivel empresarial.',
-    lead:'No es dinero fácil: es un modelo logístico que, bien estructurado, escala en serio.',
-    intro:'Asesoría en estructuras de operación dropshipping a nivel empresarial, con énfasis en logística, márgenes de utilidad y escalabilidad para empresas con capacidad de inversión.',
-    why:'El dropshipping es un modelo logístico, no un atajo. Tu negocio real es marketing, marca y experiencia de cliente. Para una operación seria hay que estructurar logística, márgenes y procesos que aguanten volumen.',
-    points:[
-      ['Estructura de operación','Modelo dropshipping pensado a nivel empresarial, no como experimento.'],
-      ['Logística y cumplimiento','Procesos de envío y postventa que sostienen el crecimiento.'],
-      ['Márgenes de utilidad','Números sanos desde el diseño, no improvisados sobre la marcha.'],
-      ['Escalabilidad','Bases para crecer volumen sin que la operación se rompa.'],
-      ['Integración en operación seria','Para empresas que quieren sumar este modelo a algo ya sólido.']
-    ],
-    ideal:'Empresas con capacidad de inversión que buscan integrar dropshipping en una operación formal.'
-  },
-  internacional:{
-    num:'Servicio 06', icon:'<circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/>',
-    title:'Negocios internacionales',
-    short:'Asesoría integral en comercio exterior: importación, exportación, contratos e Incoterms.',
-    lead:'Operar entre países exige estructura. Te la armo con base académica y práctica.',
-    intro:'Asesoría integral en operaciones de comercio exterior: importación y exportación, elaboración de contratos comerciales internacionales, Incoterms y estructura para operar entre países.',
-    why:'El comercio exterior tiene reglas que, si no conoces, te cuestan caro. Una estructura correcta de contratos, Incoterms y procesos te protege y te abre la puerta a mercados más grandes.',
-    points:[
-      ['Importación y exportación','Estructura de tus operaciones de entrada y salida de mercancía.'],
-      ['Contratos internacionales','Elaboración de acuerdos comerciales que protegen a tu empresa.'],
-      ['Incoterms','Reglas claras sobre costos, riesgos y responsabilidades en cada operación.'],
-      ['Estructura entre países','Bases para operar de forma ordenada en más de un mercado.'],
-      ['Respaldo académico','Apoyado en formación en Negocios Internacionales en CETYS Universidad.']
-    ],
-    ideal:'Empresas que ya operan o quieren empezar a operar entre países de forma formal.'
+    ideal:'Negocios con una base de clientes o prospectos que pierden tiempo en seguimiento manual y quieren que el sistema trabaje por ellos.'
   }
 };
 
@@ -792,10 +715,6 @@ function openService(key){
           <h3>¿Te interesa este servicio?</h3>
           <p>Agenda una conversación inicial. Los primeros 30 minutos son para identificar tu problema, sin costo.</p>
           <a class="btn btn-green btn-block" href="#contacto" onclick="goContact(event)">Agendar una llamada</a>
-          <a class="btn btn-ghost btn-block" href="tel:+526461324041">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            646 132 4041
-          </a>
           <div class="divider"></div>
           <p class="mini">También puedes escribir a<br><a href="mailto:rodrigo.burgueno.moreno@gmail.com" style="color:var(--green);font-weight:600">rodrigo.burgueno.moreno@gmail.com</a></p>
         </aside>
@@ -837,20 +756,35 @@ function navTo(e,id){
 function toggleMenu(){document.getElementById('mobileMenu').classList.toggle('open');document.getElementById('burger').classList.toggle('x');}
 function closeMenu(){document.getElementById('mobileMenu').classList.remove('open');document.getElementById('burger').classList.remove('x');}
 
-function submitForm(e){
-  e.preventDefault();
-  const f=e.target;
-  const nombre=f.nombre.value.trim();
-  const empresa=f.empresa.value.trim();
-  const tel=f.telefono.value.trim();
-  const serv=f.servicio.value;
-  const msg=f.mensaje.value.trim();
-  const body=`Nombre: ${nombre}%0D%0AEmpresa: ${empresa}%0D%0ATeléfono: ${tel}%0D%0AServicio de interés: ${serv}%0D%0A%0D%0AMensaje:%0D%0A${msg}`;
-  const subject=`Solicitud de consultoría${empresa?' · '+empresa:''}`;
-  window.location.href=`mailto:rodrigo.burgueno.moreno@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
-  f.style.display='none';
-  document.getElementById('formOk').style.display='block';
-  return false;
+const leadForm=document.getElementById('leadForm');
+if(leadForm){
+  leadForm.addEventListener('submit',async(e)=>{
+    e.preventDefault();
+    const f=e.target;
+    const btn=f.querySelector('button[type="submit"]');
+    const original=btn.textContent;
+    btn.textContent='Enviando...';
+    btn.disabled=true;
+    try{
+      const res=await fetch(f.action,{
+        method:'POST',
+        body:new FormData(f),
+        headers:{'Accept':'application/json'}
+      });
+      if(res.ok){
+        f.style.display='none';
+        document.getElementById('formOk').style.display='block';
+      }else{
+        btn.textContent=original;
+        btn.disabled=false;
+        alert('Hubo un problema al enviar. Intenta de nuevo o escríbeme a rodrigo.burgueno.moreno@gmail.com');
+      }
+    }catch(err){
+      btn.textContent=original;
+      btn.disabled=false;
+      alert('Hubo un problema de conexión. Intenta de nuevo o escríbeme a rodrigo.burgueno.moreno@gmail.com');
+    }
+  });
 }
 
 const io=new IntersectionObserver((entries)=>{
